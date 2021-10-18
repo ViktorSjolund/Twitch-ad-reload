@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Twitch ad reload",
+	"version": "1.0",
+	"description": "Reloads twitch when an ad.\nNOTE: For it to work properly you need to have uBlock Origin and TTV LOL enabled.",
+
+	"content_scripts": [
+    {
+      "js": ["index.js"],
+      "matches": ["https://www.twitch.tv/*"]
+    }
+  ]
+}
